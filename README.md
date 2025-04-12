@@ -5,10 +5,10 @@ graph TD
     B -->|CSV: myDS.csv| C[SentenceTransformer]
     C --> D[FAISS]
     D --> E[Контекст]
-    E -->|Задачи + textBD.txt| F[Системный промпт]
+    E -->|textBD.txt| F[Системный промпт]
     F --> G[Генерация Mistral/OpenRouter]
     G --> H[Ответ с LaTeX]
     H --> I[Обработка LaTeX QuickLaTeX]
-    I -->|PNG изображения| J[Замена на [формула]]
+    I -->|PNG изображения| J[Замена формул]
     J --> K[Вывод в консоль]
 ```
