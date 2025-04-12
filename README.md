@@ -1,4 +1,5 @@
 # diplom_st_1
+```mermaid
 graph TD
     A[Пользовательский запрос] --> B[Векторный поиск]
     B -->|CSV: myDS.csv| C[SentenceTransformer<br>all-MiniLM-L6-v2]
@@ -10,3 +11,4 @@ graph TD
     H --> I[Обработка LaTeX<br>QuickLaTeX API]
     I -->|PNG изображения| J[Замена на<br>[формула](latex_images/...)]
     J --> K[Вывод в консоль]
+```
