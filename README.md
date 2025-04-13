@@ -1,3 +1,12 @@
+```mermaid
+graph TD
+    A --- B
+    A --- C
+    B --- D
+    C --- D
+    D --- E
+```
+
 # diplom_st_1
 ```mermaid
 graph TD
